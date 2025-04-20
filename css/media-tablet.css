@@ -183,9 +183,12 @@ font-weight: 700;
 
     .footer .container {
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: flex-start;
         gap: 72px 24px;
-        padding: 0 108px;
+        padding: 0 108px;  
     }
 
     .footer .link {
@@ -199,6 +202,10 @@ font-weight: 700;
 
     .div-logo-footer {
         margin-right: 24px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .footer .team-ico-item svg {
@@ -209,6 +216,7 @@ font-weight: 700;
     .footer .team-ico-list {
         display: flex;
         gap: 16px;
+        margin: 0;
     }
 
     .foot-text-ico {
@@ -219,15 +227,19 @@ font-weight: 700;
         font-weight: 500;
         color: #FFFFFF;
         margin-bottom: 16px;
+        text-align: start;
     }
 
     .div-send {
         width: 100%;
+        margin-left: 0;
     }
 
     .div-send-fom {
         display: flex;
+        flex-direction: row;
         gap: 24px;
+        align-items: flex-start;
     }
 
     .send-text {
@@ -237,6 +249,9 @@ font-weight: 700;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
+        margin-right: auto;
+        text-align: start;
+        width: 264px;
     }
 
     .send-input {

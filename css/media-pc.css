@@ -181,7 +181,7 @@ font-weight: 500;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  max-width: 264px;
+max-width: 264px;
 }
 
 .footer .link {
@@ -195,6 +195,7 @@ font-weight: 500;
 
 .div-logo-footer {
   margin-right: 120px;
+  display: block;
 }
 
 .footer .team-ico-item svg {
@@ -210,6 +211,9 @@ font-weight: 500;
 .footer .container {
   display: flex;
   align-items: baseline;
+  flex-direction: row;
+  flex-wrap: nowrap;
+    padding: 0;
 }
 
 .foot-text-ico {
@@ -228,7 +232,7 @@ font-weight: 500;
 }
 
 .div-send {
-  margin-left: auto;
+  margin-left: 80px;
 
 }
 
