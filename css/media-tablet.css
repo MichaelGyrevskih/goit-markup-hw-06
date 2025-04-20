@@ -191,14 +191,7 @@ font-weight: 700;
         padding: 0 108px;  
     }
 
-    .footer .link {
-        display: inline-block;
-        margin-bottom: 16px;
-    }
 
-    .footer .logo {
-        margin-right: 0;
-    }
 
     .div-logo-footer {
         margin-right: 24px;
@@ -208,10 +201,7 @@ font-weight: 700;
         justify-content: center;
     }
 
-    .footer .team-ico-item svg {
-        width: 24px;
-        height: 24px;
-    }
+
 
     .footer .team-ico-list {
         display: flex;
@@ -257,5 +247,41 @@ font-weight: 700;
     .send-input {
         width: 264px;
     }
+        /* ---------Modal----------- */
+    
+        .modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 4px;
+            width: 408px;
+            min-height: 584px;
+            padding: 72px 24px 24px;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 01px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgb(0, 0, 0, 0.2);
+            background-color: #fcfcfc;
+            transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+       
+    
+        .modal-form {
+            width: 360px;
+            min-height: 336px;
+            margin: 0 auto;
+        }
+    
+    
+    
+        .modal-check-div {
+            width: 360px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+    
+       
+    
+        
 }
 
