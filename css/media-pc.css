@@ -194,8 +194,13 @@ max-width: 264px;
 }
 
 .div-logo-footer {
+  /* margin-right: 120px;
+  display: block; */
   margin-right: 120px;
-  display: block;
+    text-align: left;
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .footer .team-ico-item svg {
@@ -209,10 +214,14 @@ max-width: 264px;
 }
 
 .footer .container {
+  /* display: flex;
+  align-items: baseline; */
   display: flex;
-  align-items: baseline;
-  flex-direction: row;
-  flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 0;
     padding: 0;
 }
 
@@ -232,13 +241,17 @@ max-width: 264px;
 }
 
 .div-send {
-  margin-left: 80px;
-
+margin-left: auto;
+width: auto;
 }
 
 .div-send-fom {
+  /* display: flex;
+  gap: 24px; */
   display: flex;
-  gap: 24px;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
 }
 
 .send-button {
@@ -277,6 +290,10 @@ max-width: 264px;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+
+      margin-right: 0;
+        text-align: left;
+        width: auto;
 }
 
 .send-input {
