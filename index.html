@@ -35,7 +35,7 @@
                     <li><a class="link address-text" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
-            <div class="menu-btn">
+            <div class="menu-btn" data-modal>
                 <svg width="16,8" height="14,4"><use href="./images/icons.svg#icon-heroicons-solid_menu"></use></svg>
             </div>
         </div>
@@ -340,7 +340,7 @@
             </div>
         </div>
     </footer>
-<div class="backdrop is-open " data-modal> 
+<div class="backdrop" data-modal> 
     <div class="modal">
         <button class="modal-button-close" type="button" data-modal-close><svg class="social-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
@@ -386,9 +386,41 @@
         </form>
     </div>
   </div>
+  <div class="backdrop is-open" data-modal>
+       <div class="menu-modal">
+        <button class="modal-button-close" type="button" data-modal-close><svg class="social-svg" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black"></use>
+            </svg></button>
+            <nav class="header-navigation">
+                <ul class="menu-navigation-list">
+                    <li><a class="link menu-contact-text menu-list-current " href="./index.html">Studio</a></li>
+                    <li><a class="link menu-contact-text" href="">Portfolio</a></li>
+                    <li><a class="link menu-contact-text" href="">Contacts</a></li>
+                </ul>
+            </nav>
+                <address class="menu-div-contact">
+                    <ul class="menu-contact-list">
+                        <li><a class="link address-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="link address-text" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+                <ul class="team-ico-list">
+                    <li class="team-ico-item"><a href="" class="social-team-link"><svg class="social-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg></a></li>
+                    <li class="team-ico-item"><a href="" class="social-team-link"><svg class="social-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg></a></li>
+                    <li class="team-ico-item"><a href="" class="social-team-link"><svg class="social-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg></a></li>
+                    <li class="team-ico-item"><a href="" class="social-team-link"><svg class="social-svg" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg></a></li>
+                </ul>
+       </div>
+  </div>
 <script src="./js/modal.js"></script>
 </body>
 
 </html><!-- is-open -->
-
-<!-- srcset="путь кортинка 1х  1х , руть кортинка 2х  2х" -->
