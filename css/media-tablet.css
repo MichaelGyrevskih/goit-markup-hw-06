@@ -10,7 +10,7 @@
 
 .header-list {
     display: block;
-    padding: 16px 0;
+    /* padding: 16px 0; */
 }
 
 .header-list li:not(:last-child) {
@@ -29,16 +29,23 @@
 .navigation-item {
     padding: 24px 0;
 }
-
+a.navigation-text {
+    padding: 24px 0;
+}
+a.address-text {
+    color: #434455;
+    padding: 24px 0;
+    display: block;
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16667;
+        letter-spacing: 0.04em;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
 }
 
-.header-border {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
-}
 
 .menu-btn {
     width: 24px;
@@ -84,7 +91,8 @@ a.address-text {
     /* ---------Section-Solutions----------- */
     .section-solutions {
         padding: 112px 0;
-        min-width: 768px;
+        /* min-width: 768px; */
+        max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/solution-bg-tab.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -101,6 +109,8 @@ a.address-text {
         max-width: 496px;
         margin: 0 auto 36px;
         text-align: center;
+            font-size: 56px;
+            line-height: 1.07143;
     }
 /* ---------Section-AboutUs-----------*/
 .aboutus-item .subtitle {
@@ -112,7 +122,6 @@ font-weight: 700;
 }
 
 .aboutus-list {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
@@ -125,14 +134,15 @@ font-weight: 700;
 
         /* ---------Section-Team----------- */
         .team-item {
-        width: calc((100% - 24px) / 2);
+        width: 264px;
+        height: 428px;
         }
     
         .team-list {
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
-            gap: 24px;
+            gap: 64px 24px;
         }
     
         .social-team-link {
@@ -194,7 +204,7 @@ font-weight: 700;
 
 
     .div-logo-footer {
-        margin-right: 24px;
+        /* margin-right: 24px; */
         text-align: start;
         display: flex;
         flex-direction: column;
@@ -279,9 +289,16 @@ font-weight: 700;
             align-items: center;
             margin-bottom: 24px;
         }
+                .modal-a-text {
+                    text-decoration: underline;
+                    text-decoration-skip-ink: none;
+                    color: #4d5ae5;
+                     margin-left: 4px; 
+                }
     
        
     
         
 }
 
+ 
